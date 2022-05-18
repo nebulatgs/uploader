@@ -104,11 +104,11 @@ const App: Component = () => {
 
 	return (
 		<div class='h-full grid grid-cols-settings'>
-			<div class='flex flex-col text-white p-1 gap-[2px] h-screen overflow-auto overscroll-auto scroll-smooth no-scrollbar'>
+			<div class='flex flex-col text-white p-1 gap-[2px] h-screen overflow-auto overscroll-auto scroll-smooth no-scrollbar cursor-default'>
 				<For each={categories}>
 					{([item, _], index) => (
 						<div
-							class='flex items-center rounded-win bg-white hover:bg-opacity-5 py-2 ml-2 mr-4 cursor-pointer'
+							class='flex items-center rounded-win bg-white hover:bg-opacity-5 py-2 ml-2 mr-4'
 							classList={{
 								"bg-opacity-5": active() === index(),
 								"bg-opacity-0": active() !== index(),
