@@ -25,7 +25,7 @@ export const TextInput: Component<
 					class='w-full bg-transparent text-sm focus:outline-none text-white focus:placeholder-opacity-70 placeholder-gray-200 p-1 px-2 '
 				/>
 			</div>
-			<div class='h-[1.5px] peer-focus-within:h-[2px] relative bg-white bg-opacity-50 peer-focus-within:bg-red-400 peer-focus-within:bg-opacity-100'></div>
+			<div class='h-[1.5px] peer-focus-within:h-[2px] peer-focus-within:mb-[0.5px] relative bg-white bg-opacity-50 peer-focus-within:bg-red-400 peer-focus-within:bg-opacity-100'></div>
 		</div>
 	);
 };
